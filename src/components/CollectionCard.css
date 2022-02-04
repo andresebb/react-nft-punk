@@ -5,6 +5,7 @@
   height: 500px;
   border-radius: 20px;
   overflow: hidden;
+  cursor: pointer;
   margin-right: 30px;
 }
 

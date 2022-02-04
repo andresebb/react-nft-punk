@@ -1,0 +1,66 @@
+.main {
+  /* max-height: 50vh; */
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.punkDetails {
+  margin-bottom: 84px;
+}
+
+.punkContainer {
+  max-width: min(20vw, 30vw);
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.selectedPunk {
+  width: 100%;
+}
+
+.PunkDetailsContainer {
+  flex: 1;
+}
+
+.ownerImageContainer {
+  max-width: min(6vw, 10vw);
+}
+
+.ownerImageContainer > img {
+  width: 100%;
+}
+
+.owner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ownerInfo {
+  display: flex;
+}
+
+.social {
+  display: flex;
+}
+
+.ownerLink {
+  width: 6vw;
+}
+
+.ownerLink > img {
+  width: 100%;
+}
+/* 
+.punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+} */

@@ -1,12 +1,11 @@
 import React from "react";
-import punk from "../assets/punks/2.jpg";
 import weth from "../assets/assets/weth.png";
 import "./CollectionCard.css";
 
 export const CollectionCard = ({ name, traits, image, id }) => {
   return (
     <div className="collectionCard">
-      <img src={punk} alt="" />
+      <img src={image} alt="" />
       <div className="details">
         <div className="name">
           {name}
