@@ -17,6 +17,14 @@
   max-width: min(20vw, 30vw);
 }
 
+.punkContainer > img {
+  border-radius: 25px;
+}
+
+.punkHighLight {
+  margin-right: 40px;
+}
+
 .title {
   font-size: 48px;
   font-weight: bold;
